@@ -1,20 +1,13 @@
 ---
-name: plain-writing
+name: clear-writing
 description: >-
-  Write and edit prose in the user's plain style: simple everyday words,
-  complete sentences, no dashes, no jargon, no analogies, no filler, and full
-  clear explanations. Use this whenever you draft or revise any prose for the
-  user, such as documents, Notion pages, reports, summaries, README files,
-  research notes, proposals, slide text, emails, or commit and PR descriptions.
-  Also use it whenever the user asks to simplify, clean up, tighten, reword, or
-  make writing clearer or easier to read. Default to this style for prose
-  written for the user unless they ask for a different one. Do not apply it to
-  code itself, only to the words around it.
+  Write and edit prose in a "clear" style: use simple everyday words, complete sentences, no em dashes, no jargon, no analogies, no filler, and full clear explanations. Use this whenever you draft or revise any prose for the user, such as documents, Notion pages, reports, summaries, README files, research notes, proposals, slide text, emails, or commit and PR descriptions.
+  Also use it whenever the user asks to simplify, clean up, tighten, reword, or make writing clearer or easier to read. Default to this style for prose written for the user unless they ask for a different one. Do not apply it to code itself, only to the words around it.
 ---
 
-# Plain writing
+# Clear Writing
 
-The plain writing skill captures how the user wants written prose to read. The goal is text that anyone can read once and understand. The user has asked for the plain style repeatedly and corrects writing that does not follow it, so apply it by default when you write prose for them.
+The "clear" writing skill captures how the user wants written prose to read. The goal is text that anyone can read once and understand. The user has asked for the clear style repeatedly and corrects writing that does not follow it, so apply it by default when you write prose for them.
 
 The rules are in four groups: word choice, sentences and paragraphs, punctuation and formatting, and patterns to avoid. Each rule is followed by a before and after so you can see it. After the rules come how to revise, then how to build the optional revision file.
 
@@ -58,7 +51,7 @@ The rules are in four groups: word choice, sentences and paragraphs, punctuation
    
    After: The agent polls the file and reacts to changes. The team meets on Tuesdays.
 
-7. **Explain things fully and clearly.** Plain does not mean terse. If an idea is compressed into one cramped sentence, expand it so each point gets its own sentence and the reader can follow it.
+7. **Explain things fully and clearly.** Clear does not mean terse. If an idea is compressed into one cramped sentence, expand it so each point gets its own sentence and the reader can follow it.
 
    Before: The groups the features were sorted into were the authors' own reading, the example posts were written by hand, and finer detail meant training extra small models and labeling again.
    
@@ -132,7 +125,7 @@ The rules are in four groups: word choice, sentences and paragraphs, punctuation
     
     After: It is a parser and a formatter.
 
-18. **No filler.** Cut words and phrases that add nothing, e.g., "it is worth noting that". Watch for an "-ing" tail that adds fake analysis. Cut it, or say the plain reason.
+18. **No filler.** Cut words and phrases that add nothing, e.g., "it is worth noting that". Watch for an "-ing" tail that adds fake analysis. Cut it, or say the clear reason.
 
     Before: The cache stores results, highlighting its value for speed.
     
@@ -205,7 +198,7 @@ Build a list of the changes at the level of whole sentences. Group the entries i
 - edit. The sentence was rewritten. Fields: `type` is "edit", `old`, `new`, and `why`.
 - del. The sentence was removed. Fields: `type` is "del", plus `old` and `why`.
 
-The `why` is a short plain reason for the change, e.g., "filler, adds nothing". Here is the shape of the list:
+The `why` is a short clear reason for the change, e.g., "filler, adds nothing". Here is the shape of the list:
 
 ```json
 [
