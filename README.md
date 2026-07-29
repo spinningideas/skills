@@ -3,14 +3,6 @@
 Collection of AI Skills, rules, and workflows for use with the AI agents.
 
 
-
-## `rules`
-
-Project-wide rules for code quality, logging, and imports.
-
-- [browser-testing.md](rules/browser-testing.md)
-- [linting-imports.md](rules/linting-imports.md)
-
 ## `skills`
 
 Reusable agent skills. Each skill lives in its own folder with a `SKILL.md` file.
@@ -20,6 +12,12 @@ Reusable agent skills. Each skill lives in its own folder with a `SKILL.md` file
 Clarify requirements before implementing. Use when serious doubts arise.
 
 [ask-questions-if-underspecified](skills/ask-questions-if-underspecified/SKILL.md)
+
+# brainstorming
+
+Use when a user presents a vague project or business idea and wants to research, challenge, refine, validate, or turn it into a documented handoff.
+
+[brainstorming](skills/brainstorming/SKILL.md)
 
 ### code-steward
 
@@ -74,6 +72,13 @@ Question the user relentlessly about a plan, decision, or idea. Use when the use
 Teach the user a new skill or concept, within this workspace.
 
 [teach](skills/teach/SKILL.md)
+
+## `rules`
+
+Project-wide rules for code quality, logging, and imports.
+
+- [browser-testing.md](rules/browser-testing.md)
+- [linting-imports.md](rules/linting-imports.md)
 
 ## `workflow`
 
