@@ -19,6 +19,12 @@ Use when a user presents a vague project or business idea and wants to research,
 
 [brainstorming](skills/brainstorming/SKILL.md)
 
+### big-picture
+
+Use when a user wants to see the big picture and focus on high-level overview.
+
+[big-picture](skills/big-picture/SKILL.md)
+
 ### code-steward
 
 Comprehensive codebase stewardship skill that combines import checking, typecheck fixing, and eslint fixing into a single unified workflow.
