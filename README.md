@@ -5,7 +5,7 @@ Collection of AI Skills, rules, and workflows for use with the AI agents.
 
 ## `skills`
 
-Reusable agent skills. Each skill lives in its own folder with a `SKILL.md` file.
+Folder of reusable agent skills. Each skill lives in its own folder with a `SKILL.md` file.
 
 ### ask-questions-if-underspecified
 

@@ -2,18 +2,15 @@
 name: big-picture
 description: 'Shape output for a reader that only wants to see the big picture: lead with the next action, number multi-step work, restate state across turns, suppress tangents, give specific time estimates, make wins visible. Invoke with /big-picture; stays on until "stop big picture mode".'
 disable-model-invocation: true
-license: MIT
-metadata:
-  hermes:
-    tags: [Big Picture, ADHD, Output Style, Productivity, Formatting]
-    category: productivity
-    related_skills: []
-  inspiration: https://github.com/SpinningIdeas/Code/blob/main/skills/skills/i-have-adhd/SKILL.md
+license: MIT   
+inspiration: "https://github.com/ayghri/i-have-adhd "
 ---
 
 # big-picture
 
 The reader wants to see the big picture. Output is not just brief. It is shaped so an someone wanting to focus on big-picture can act on it.
+
+Inspired by: https://github.com/ayghri/i-have-adhd
 
 ## Persistence
 
