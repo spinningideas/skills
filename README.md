@@ -1,6 +1,6 @@
 # skills
 
-Collection of AI Skills, rules, and workflows for use with the AI agents.
+Collection of AI Skills, rules, and workflows for use with the AI agents. See subfolders for details.
 
 
 ## `skills`
@@ -13,7 +13,7 @@ Clarify requirements before implementing. Use when serious doubts arise.
 
 [ask-questions-if-underspecified](skills/ask-questions-if-underspecified/SKILL.md)
 
-# brainstorming
+### brainstorming
 
 Use when a user presents a vague project or business idea and wants to research, challenge, refine, validate, or turn it into a documented handoff.
 
@@ -69,25 +69,25 @@ Specialized agent for identifying and removing unused code, components, hooks, a
 
 ### deep-elicitation
 
-Question the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'elicitation' trigger phrases.
+Question the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'elicitation' trigger phrases. This skill is inspired by the   [grill me](https://github.com/mattpocock/skills/blob/main/skills/productivity/grill-me/SKILL.md) skill from Matt Pocock's skills repository.
 
 [deep-elicitation](skills/deep-elicitation/SKILL.md)
 
 ### teach
 
-Teach the user a new skill or concept, within this workspace.
+Teach the user a new skill or concept.
 
 [teach](skills/teach/SKILL.md)
 
 ## `rules`
 
-Project-wide rules for code quality, logging, and imports.
+Project-wide rules.
 
 - [browser-testing.md](rules/browser-testing.md)
 - [linting-imports.md](rules/linting-imports.md)
 
 ## `workflow`
 
-Workflow definitions used by the agent.
+Workflow definitions used by the agents that compose skills and other information into a coherent plan.
 
 - [feature-groom-dev.md](workflow/feature-groom-dev.md)
