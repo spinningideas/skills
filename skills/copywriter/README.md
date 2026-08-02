@@ -1,6 +1,6 @@
-![Copywriter. Human tone. Explains extreme concepts easily.]
-
 # Copywriter
+
+Copywriter skill attempts to form a Human tone and explain concepts easily.
 
 Based on AI Copywriter by [Mickey Haslavsky](https://github.com/mikiarlo3) but refactored for personal use cases that are not solely focused on sales or purely removing "AI writing" patterns.
 
@@ -200,61 +200,61 @@ Rewrites follow a no-fabrication rule: they never add facts, names, dates, or ci
 
 #### Content patterns
 
-| # | Pattern | Before | After |
-|---|---------|--------|-------|
-| 1 | **Significance inflation** | "marking a pivotal moment in the evolution of..." | "was established in 1989 as part of a wider decentralization" |
-| 2 | **Notability name-dropping** | "cited in NYT, BBC, FT, and The Hindu" | Trim the list; keep only sourced context |
-| 3 | **Superficial -ing analyses** | "symbolizing... reflecting... showcasing..." | Remove, or keep only what the source supports |
-| 4 | **Promotional language** | "nestled within the breathtaking region" | "is a town in the Gonder region" |
-| 5 | **Vague attributions** | "Experts believe it plays a crucial role" | Name a real source or cut the claim |
-| 6 | **Formulaic challenges** | "Despite challenges... continues to thrive" | Keep the sourced facts; cut the boosterism |
+| #   | Pattern                       | Before                                            | After                                                         |
+| --- | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------------- |
+| 1   | **Significance inflation**    | "marking a pivotal moment in the evolution of..." | "was established in 1989 as part of a wider decentralization" |
+| 2   | **Notability name-dropping**  | "cited in NYT, BBC, FT, and The Hindu"            | Trim the list; keep only sourced context                      |
+| 3   | **Superficial -ing analyses** | "symbolizing... reflecting... showcasing..."      | Remove, or keep only what the source supports                 |
+| 4   | **Promotional language**      | "nestled within the breathtaking region"          | "is a town in the Gonder region"                              |
+| 5   | **Vague attributions**        | "Experts believe it plays a crucial role"         | Name a real source or cut the claim                           |
+| 6   | **Formulaic challenges**      | "Despite challenges... continues to thrive"       | Keep the sourced facts; cut the boosterism                    |
 
 #### Language patterns
 
-| # | Pattern | Before | After |
-|---|---------|--------|-------|
-| 7 | **AI vocabulary** | "Actually... additionally... testament... landscape... showcasing" | "also... remain common" |
-| 8 | **Copula avoidance** | "serves as... features... boasts" | "is... has" |
-| 9 | **Negative parallelisms / tailing negations** | "It's not just X, it's Y", "..., no guessing" | State the point directly |
-| 10 | **Rule of three** | "innovation, inspiration, and insights" | Use natural number of items |
-| 11 | **Synonym cycling** | "protagonist... main character... central figure... hero" | "protagonist" (repeat when clearest) |
-| 12 | **False ranges** | "from the Big Bang to dark matter" | List topics directly |
-| 13 | **Passive voice / subjectless fragments** | "No configuration file needed" | Name the actor when it helps clarity |
+| #   | Pattern                                       | Before                                                             | After                                |
+| --- | --------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------ |
+| 7   | **AI vocabulary**                             | "Actually... additionally... testament... landscape... showcasing" | "also... remain common"              |
+| 8   | **Copula avoidance**                          | "serves as... features... boasts"                                  | "is... has"                          |
+| 9   | **Negative parallelisms / tailing negations** | "It's not just X, it's Y", "..., no guessing"                      | State the point directly             |
+| 10  | **Rule of three**                             | "innovation, inspiration, and insights"                            | Use natural number of items          |
+| 11  | **Synonym cycling**                           | "protagonist... main character... central figure... hero"          | "protagonist" (repeat when clearest) |
+| 12  | **False ranges**                              | "from the Big Bang to dark matter"                                 | List topics directly                 |
+| 13  | **Passive voice / subjectless fragments**     | "No configuration file needed"                                     | Name the actor when it helps clarity |
 
 #### Style patterns
 
-| # | Pattern | Before | After |
-|---|---------|--------|-------|
-| 14 | **Em/en dashes** | "institutions—not the people—yet this continues—" | Cut them: periods, commas, colons, or parentheses |
-| 15 | **Boldface overuse** | "**OKRs**, **KPIs**, **BMC**" | "OKRs, KPIs, BMC" |
-| 16 | **Inline-header lists** | "**Performance:** Performance improved" | Convert to prose |
-| 17 | **Title Case Headings** | "Strategic Negotiations And Partnerships" | "Strategic negotiations and partnerships" |
-| 18 | **Emojis** | "🚀 Launch Phase: 💡 Key Insight:" | Remove emojis |
-| 19 | **Curly quotes** | `said “the project”` | `said "the project"` |
-| 26 | **Hyphenated word pairs** | “cross-functional, data-driven, client-facing” | Drop hyphens on common word pairs |
-| 27 | **Persuasive authority tropes** | "At its core, what matters is..." | State the point directly |
-| 28 | **Signposting announcements** | "Let's dive in", "Here's what you need to know" | Start with the content |
-| 29 | **Fragmented headers** | "## Performance" + "Speed matters." | Let the heading do the work |
-| 30 | **Diff-anchored writing** | "This function was added to replace..." | Describe what it does, not what changed |
-| 31 | **Manufactured punchlines / staccato drama** | "It had no preference. No prior. No nostalgia." | Use varied sentence lengths and concrete claims |
-| 32 | **Aphorism formulas** | "Symmetry is the language of trust" | Replace the formula with the actual claim |
-| 33 | **Conversational rhetorical openers** | "Honestly? It depends..." | Remove the fake-candid setup |
+| #   | Pattern                                      | Before                                            | After                                             |
+| --- | -------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
+| 14  | **Em/en dashes**                             | "institutions—not the people—yet this continues—" | Cut them: periods, commas, colons, or parentheses |
+| 15  | **Boldface overuse**                         | "**OKRs**, **KPIs**, **BMC**"                     | "OKRs, KPIs, BMC"                                 |
+| 16  | **Inline-header lists**                      | "**Performance:** Performance improved"           | Convert to prose                                  |
+| 17  | **Title Case Headings**                      | "Strategic Negotiations And Partnerships"         | "Strategic negotiations and partnerships"         |
+| 18  | **Emojis**                                   | "🚀 Launch Phase: 💡 Key Insight:"                | Remove emojis                                     |
+| 19  | **Curly quotes**                             | `said “the project”`                              | `said "the project"`                              |
+| 26  | **Hyphenated word pairs**                    | “cross-functional, data-driven, client-facing”    | Drop hyphens on common word pairs                 |
+| 27  | **Persuasive authority tropes**              | "At its core, what matters is..."                 | State the point directly                          |
+| 28  | **Signposting announcements**                | "Let's dive in", "Here's what you need to know"   | Start with the content                            |
+| 29  | **Fragmented headers**                       | "## Performance" + "Speed matters."               | Let the heading do the work                       |
+| 30  | **Diff-anchored writing**                    | "This function was added to replace..."           | Describe what it does, not what changed           |
+| 31  | **Manufactured punchlines / staccato drama** | "It had no preference. No prior. No nostalgia."   | Use varied sentence lengths and concrete claims   |
+| 32  | **Aphorism formulas**                        | "Symmetry is the language of trust"               | Replace the formula with the actual claim         |
+| 33  | **Conversational rhetorical openers**        | "Honestly? It depends..."                         | Remove the fake-candid setup                      |
 
 #### Communication patterns
 
-| # | Pattern | Before | After |
-|---|---------|--------|-------|
-| 20 | **Chatbot artifacts** | "I hope this helps! Let me know if..." | Remove entirely |
-| 21 | **Cutoff disclaimers** | "While details are limited in available sources..." | Find sources or remove |
-| 22 | **Sycophantic tone** | "Great question! You're absolutely right!" | Respond directly |
+| #   | Pattern                | Before                                              | After                  |
+| --- | ---------------------- | --------------------------------------------------- | ---------------------- |
+| 20  | **Chatbot artifacts**  | "I hope this helps! Let me know if..."              | Remove entirely        |
+| 21  | **Cutoff disclaimers** | "While details are limited in available sources..." | Find sources or remove |
+| 22  | **Sycophantic tone**   | "Great question! You're absolutely right!"          | Respond directly       |
 
 #### Filler and hedging
 
-| # | Pattern | Before | After |
-|---|---------|--------|-------|
-| 23 | **Filler phrases** | "In order to", "Due to the fact that" | "To", "Because" |
-| 24 | **Excessive hedging** | "could potentially possibly" | "may" |
-| 25 | **Generic conclusions** | "The future looks bright" | Specific plans or facts |
+| #   | Pattern                 | Before                                | After                   |
+| --- | ----------------------- | ------------------------------------- | ----------------------- |
+| 23  | **Filler phrases**      | "In order to", "Due to the fact that" | "To", "Because"         |
+| 24  | **Excessive hedging**   | "could potentially possibly"          | "may"                   |
+| 25  | **Generic conclusions** | "The future looks bright"             | Specific plans or facts |
 
 ## Example: same product, both modes
 
@@ -269,6 +269,7 @@ Say you hand it a note-taking app for lawyers and ask for launch copy.
 > Reader: a lawyer at 7pm who just spent twenty minutes hunting through legal pads for one line from a deposition. Feeling: that specific frustration, plus fatigue from every app that promised to fix it. Simplest explanation of the product: you type notes, and later you can find any line by searching.
 >
 > Headline options:
+>
 > 1. "Your case notes, searchable before you're back at your desk"
 > 2. "Stop losing billable hours to notes you can't find"
 > 3. "The note app that knows what a deposition is"
