@@ -1,0 +1,408 @@
+# Power Words and Action Verbs
+
+## Communication/People Skills
+
+- Addressed
+- Advertised
+- Arbitrated
+- Arranged
+- Articulated
+- Authored
+- Clarified
+- Collaborated
+- Communicated
+- Composed
+- Condensed
+- Conferred
+- Consulted
+- Contacted
+- Conveyed
+- Convinced
+- Corresponded
+- Debated
+- Defined
+- Described
+- Developed
+- Directed
+- Discussed
+- Drafted
+- Edited
+- Elicited
+- Enlisted
+- Explained
+- Expressed
+- Formulated
+- Furnished
+- Incorporated
+- Influenced
+- Interacted
+- Interpreted
+- Interviewed
+- Involved
+- Joined
+- Judged
+- Lectured
+- Listened
+- Marketed
+- Mediated
+- Moderated
+- Negotiated
+- Observed
+- Outlined
+- Participated
+- Persuaded
+- Presented
+- Promoted
+
+## Efficiency & Improvement Skills
+
+- Streamlined
+- Optimized
+- Enhanced
+- Upgraded
+- Reformed
+- Modernized
+- Automated
+- Consolidated
+- Revitalized
+- Overhauled
+- Troubleshot
+- Diagnosed
+- Devised
+- Engineered
+- Formulated
+- Tailored
+- Customized
+- Invented
+- Remedied
+- Revolutionized
+
+## Management/Leadership Skills
+
+- Administered
+- Analyzed
+- Appointed
+- Approved
+- Assigned
+- Attained
+- Authorized
+- Chaired
+- Considered
+- Consolidated
+- Contracted
+- Controlled
+- Converted
+- Coordinated
+- Decided
+- Delegated
+- Developed
+- Directed
+- Eliminated
+- Emphasized
+- Enforced
+- Enhanced
+- Established
+- Executed
+- Generated
+- Handled
+- Headed
+- Hired
+- Hosted
+- Improved
+- Incorporated
+- Increased
+- Initiated
+- Inspected
+- Instituted
+- Led
+- Managed
+- Merged
+- Motivated
+- Organized
+- Originated
+- Overhauled
+- Oversaw
+- Planned
+- Presided
+- Prioritized
+- Produced
+- Recommended
+- Reorganized
+- Replaced
+- Restored
+- Reviewed
+- Scheduled
+- Streamlined
+- Strengthened
+
+## Organization/Detail Skills
+
+- Approved
+- Arranged
+- Cataloged
+- Categorized
+- Charted
+- Classified
+- Coded
+- Collected
+- Compiled
+- Corresponded
+- Distributed
+- Executed
+- Filed
+- Generated
+- Implemented
+- Incorporated
+- Inspected
+- Logged
+- Maintained
+- Monitored
+- Obtained
+- Operated
+- Ordered
+- Achieved
+- Completed
+- Expanded
+- Exceeded
+- Improved
+- Pioneered
+- Reduced (Losses)
+- Resolved (Issues)
+- Restored
+- Spearheaded
+- Succeeded
+- Surpassed
+- Transformed
+
+## Creative Skills
+
+- Acted
+- Adapted
+- Began
+- Combined
+- Conceptualized
+- Condensed
+- Created
+- Customized
+- Designed
+- Developed
+- Directed
+- Displayed
+- Drew
+- Entertained
+- Established
+- Fashioned
+- Formulated
+- Founded
+- Illustrated
+- Initiated
+- Instituted
+- Integrated
+- Introduced
+- Invented
+- Modeled
+- Modified
+- Originated
+- Performed
+- Photographed
+- Planned
+- Revised
+- Revitalized
+- Shaped
+- Solved
+
+## Research & Technical Skills
+
+- Analyzed
+- Clarified
+- Collected
+- Compared
+- Conducted
+- Critiqued
+- Detected
+- Determined
+- Diagnosed
+- Evaluated
+- Examined
+- Experimented
+- Explored
+- Extracted
+- Formulated
+- Gathered
+- Identified
+- Inspected
+- Interpreted
+- Interviewed
+- Invented
+- Investigated
+- Located
+- Measured
+- Organized
+- Researched
+- Searched
+- Solved
+- Summarized
+- Surveyed
+- Systematized
+- Tested
+- Adapted
+- Assembled
+- Built
+- Calculated
+
+## Teaching Skills
+
+- Adapted
+- Advised
+- Clarified
+- Coached
+- Communicated
+- Conducted
+- Coordinated
+- Critiqued
+- Developed
+- Enabled
+- Encouraged
+- Evaluated
+- Explained
+- Facilitated
+- Focused
+- Guided
+- Individualized
+- Informed
+- Instilled
+- Instructed
+- Motivated
+- Persuaded
+- Set Goals
+- Simulated
+- Stimulated
+- Supervised
+- Taught
+- Trained
+- Tested
+- Transmitted
+- Tutored
+- Proposed
+- Publicized
+- Reconciled
+- Reinforced
+- Reported
+- Resolved
+
+## Financial/Data Skills
+
+- Administered
+- Adjusted
+- Allocated
+- Analyzed
+- Appraised
+- Assessed
+- Audited
+- Balanced
+- Calculated
+- Compiled
+- Conserved
+- Corrected
+- Determined
+- Developed
+- Estimated
+- Forecasted
+- Managed
+- Marketed
+- Measured
+- Planned
+- Programmed
+- Projected
+- Reconciled
+- Reduced
+- Researched
+- Retrieved
+
+## Helping Skills
+
+- Adapted
+- Advocated
+- Aided
+- Answered
+- Arranged
+- Assessed
+- Assisted
+- Cared For
+- Clarified
+- Coached
+- Collaborated
+- Contributed
+- Cooperated
+- Counseled
+- Demonstrated
+- Diagnosed
+- Educated
+- Encouraged
+
+## Other Verbs
+
+- Ensured
+- Expedited
+- Facilitated
+- Familiarized
+- Furthered
+- Guided
+- Helped
+- Insured
+- Intervened
+- Motivated
+- Provided
+- Referred
+- Rehabilitated
+- Presented
+- Resolved
+- Simplified
+- Supplied
+- Supported
+- Volunteered
+- Organized
+- Prepared
+- Processed
+- Provided
+- Purchased
+- Recorded
+- Registered
+- Reserved
+- Responded
+- Reviewed
+- Routed
+- Scheduled
+- Screened
+- Set Up
+- Submitted
+- Supplied
+- Standardized
+- Systematized
+- Updated
+- Validated
+- Verified
+
+## Overused Buzzwords To Avoid Using
+
+- Go-getter
+- Think outside the box
+- Circle back
+- Synergy
+- Go-to person
+- Thought leader
+- Team player
+- Hard worker
+- Strategic thinker
+- Detail-oriented
+- Results-driven
+- Dynamic
+- Highly qualified
+- Self-motivated
+- Proactive
+- Problem-solver
+- Innovative
+- Responsible
+- Motivated
+- Passionate
+- Extensive experience
