@@ -1,8 +1,8 @@
-![AI copywriter. Human tone. Explains extreme concepts easily. enso](assets/banner.png)
+![Copywriter. Human tone. Explains extreme concepts easily.]
 
-# AI Copywriter
+# Copywriter
 
-by [Mickey Haslavsky](https://github.com/mikiarlo3)
+Based on AI Copywriter by [Mickey Haslavsky](https://github.com/mikiarlo3) but refactored for personal use cases that are not solely focused on sales or purely removing "AI writing" patterns.
 
 A portable agent skill that does the two halves of the copy job most tools split apart: it writes copy that earns attention (clickbait titles, short descriptions, microcopy, subject lines), and it strips out every sign of AI-generated writing so the result reads like a person wrote it. It is plain Markdown, so it runs in any harness that supports skill-style instructions.
 
@@ -291,15 +291,7 @@ The second version sells harder than the first. It just doesn't sound like a pre
 
 ## Version history
 
-- **1.6.0** - Added strategic blog posts to the copywriting mode, backed by a full template (references/strategic-blog-template.md): category-defining, founder-oriented posts that open with a broken playbook, explain the market's evolution in named phases, name the emerging model, and deliver four to seven numbered strategies with mechanisms and operating lessons. The template runs on the skill's existing machinery: the intake supplies the reader, category, and observed pattern, the reader-first questions shape the headline and introduction, the no-fabrication rule governs all evidence, and the finished post passes the full 33-pattern humanizer audit. No change to the 33 patterns.
-- **1.5.1** - Portability fix for stricter skill importers (reported against Manus): flattened the frontmatter description from a multi-line YAML block scalar to a single-line quoted string, and replaced the README's paste-based Manus instructions with the native install path (Settings, Skills, + Add, GitHub import or ZIP upload). No change to behavior or the 33 patterns.
-- **1.5.0** - The intake now probes quality, not just presence: after collecting the ICP, category, and story, the skill tests its own understanding (could it surprise a colleague about this ICP, does it know table stakes versus eyebrow-raising claims in the category, can it write the reader's 11pm search query verbatim) and proactively asks follow-up questions the moment its material stops being interesting, instead of writing around a gap it noticed. No change to the 33 patterns.
-- **1.4.0** - Added a mandatory intake before writing: the skill asks for the ICP, the category, and the story in one batch (skipping what the brief already covers), plus a story development loop with four interest tests (surprising number, near-failure moment, overturned belief, dinner-table test) and digging questions to help the author find a true story worth telling before any drafting starts. Embedded mode writes from what exists and names what was missing. Grounded the LinkedIn section in sharing research (shipped as references/linkedin-virality.md): one portable claim per post, high-arousal but professionally credible energy, a recognizable audience, hooks that accurately preview the payoff, comment prompts with intellectual content, and an explicit ban on algorithm folklore and engagement pods. Raised the SKILL.md portability budget to 600 lines. No change to the 33 patterns.
-- **1.3.0** - Added LinkedIn posts to the copywriting mode: hook-first structure (the two lines before "...see more" carry the post), one true story or stance per post, endings that recruit real comments, and delivery as 3 to 5 hook options plus a full post. LinkedIn's short-paragraph rhythm is allowed as a scoped format exception to pattern 31, and the no-fabrication rule is explicit: stories, dialogue, and numbers must come from the author. Raised the SKILL.md portability budget from 500 to 550 lines to fit the section. No change to the 33 patterns.
-- **1.2.0** - Added "Copy that recruits its next reader" to the copywriting mode: repeatable lines over clever ones, share-worthy specifics that give the reader social cover, every product surface treated as an acquisition surface, invite loops written into the copy where the product allows it, and a rule that share-me moments must be true. No change to the 33 patterns.
-- **1.1.1** - Attributed the reader-first copywriting method to [enso.bot/research](https://enso.bot/research) in the README and the skill's reference section. No change to behavior or the 33 patterns.
-- **1.1.0** - Made reader-first thinking the foundation of the copywriting mode: two mandatory pre-writing questions (name the feeling of the person on the other end at the moment the line reaches them; find the simplest kitchen-table way to explain the concept), a per-format map of reader feelings (headline, description, error, empty state, subject line), pick rationales justified by the reader's feeling instead of craft, and copy-specific audit questions (does the line meet the feeling; can the reader repeat the promise after one read; does it survive alone on a billboard). Examples updated to show the reasoning. No change to the 33 patterns.
-- **1.0.0** - First release of AI Copywriter. Forked from blader/humanizer v2.9.1 (all 33 patterns retained unchanged) and added COPYWRITING MODE: clickbait titles and headlines, short descriptions, microcopy, and subject lines, plus a copy-request invocation mode that delivers variants with a pick, a no-fabrication rule for product facts, and a billboard-test audit question for copy.
+Removed older version history entries for clarity and focus on current implementation.
 
 ## License
 
