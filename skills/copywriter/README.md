@@ -34,56 +34,15 @@ The skill also refuses to invent product facts. If the strongest headline needs 
 
 ## Installation
 
-### Skills CLI
-
-Install globally with the cross-agent skills CLI so the skill is available in every project:
-
-```bash
-npx skills add mikiarlo3/ai-copywriter --global
-```
-
-Update an existing install:
-
-```bash
-npx skills update ai-copywriter --global
-```
-
-To install globally into every supported agent harness:
-
-```bash
-npx skills add mikiarlo3/ai-copywriter --global --agent '*'
-```
-
-Omit `--global` for a project-local install that can be committed and shared with collaborators. Start a new agent session or reload skills after installation.
-
-### Claude Code plugin
-
-Claude Code users can also install it as a plugin:
-
-```
-/plugin marketplace add mikiarlo3/ai-copywriter
-/plugin install ai-copywriter@ai-copywriter
-```
-
-The skill is then invoked as `/ai-copywriter:ai-copywriter`.
-
-### Manual
+Copy the file into your skills directory.
 
 Any agent harness can use the skill directly because the runtime artifact is `SKILL.md`. Install it wherever your harness expects skill directories:
-
-```bash
-git clone https://github.com/mikiarlo3/ai-copywriter.git /path/to/your/skills/ai-copywriter
-```
 
 ## Using it with ChatGPT, Manus, and other AI tools
 
 The whole skill is one Markdown file with no code or dependencies, so any LLM that accepts text can run it. The pattern is always the same: get the contents of [`SKILL.md`](SKILL.md) in front of the model, tell it to follow them, then make your requests.
 
 **Claude (claude.ai and the Claude apps).** Claude Code users should use the plugin or skills CLI install above. On claude.ai, create a Project, upload `SKILL.md` to its knowledge, and put one line in the project instructions: "Follow SKILL.md for all copywriting and humanizing requests." For a single conversation, attach the file to your first message with that same line.
-
-**ChatGPT.** Create a custom GPT and paste the full contents of `SKILL.md` into its Instructions field; every chat with that GPT now runs the skill. For a one-off conversation, paste the contents as your first message and add: "Follow these instructions for the rest of this conversation."
-
-**Manus.** Manus supports the skill format natively, so don't paste the file; install it. Go to Settings, then Skills, then "+ Add", and either import from GitHub by pasting this repository's URL, or download the repo as a ZIP (the "Code" button on GitHub, then "Download ZIP") and upload that. Once installed, invoke it with `/ai-copywriter` in chat. If the GitHub import errors, use the ZIP upload; it works regardless of how the repository's branches are configured.
 
 **Any other LLM.** Put `SKILL.md` in the system prompt if you control it, or in the first message if you don't. The file is small enough (about 8,000 tokens) to fit comfortably in any modern model's context.
 
@@ -94,7 +53,7 @@ The whole skill is one Markdown file with no code or dependencies, so any LLM th
 Ask for what you need and give it the raw material (the product, the audience, the facts). Titles come back as 5 to 10 variants across different angles, with a pick:
 
 ```
-/ai-copywriter
+/copywriter
 
 Write titles for this blog post: [paste draft or summary]
 ```
@@ -119,7 +78,7 @@ with the real numbers and the real moment]
 For founder-facing thesis pieces (the "old playbook is breaking, here is the new one" genre), the skill follows a dedicated template: [references/strategic-blog-template.md](references/strategic-blog-template.md). Ask for a strategic or category-defining blog post and give it whatever raw material you have:
 
 ```
-/ai-copywriter
+/copywriter
 
 Write a strategic blog post.
 
@@ -147,7 +106,7 @@ You get back a headline (with variants and a pick), a one-sentence subtitle, and
 Paste text and it comes back with the AI tells removed:
 
 ```
-/ai-copywriter
+/copywriter
 
 Please humanize this text: [your text]
 ```
@@ -163,7 +122,7 @@ Humanize the prose in docs/launch-post.md
 To match your personal writing style, provide a sample of your own writing:
 
 ```
-/ai-copywriter
+/copywriter
 
 Here's a sample of my writing for voice matching:
 [paste 2-3 paragraphs of your own writing]
