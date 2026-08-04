@@ -24,11 +24,11 @@ instructions, in a rules file or the system prompt.
 
 Some tools have a set place for skills:
 
-- Claude Code reads skills from `~/.claude/skills`. Clone the repo into a folder
+- Claude Code reads skills from `~/.agent/skills`. Clone the repo into a folder
   named `plain-writing`:
 
 ```
-git clone https://github.com/shreyashankar/plain-writing-skill ~/.claude/skills/plain-writing
+git clone https://github.com/shreyashankar/plain-writing-skill ~/.agent/skills/plain-writing
 ```
 
 - Other agents, e.g., Codex or pi, can use the rules too. Paste the rules from
