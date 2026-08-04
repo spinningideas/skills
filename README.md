@@ -90,6 +90,12 @@ You are my critical thinking partner. Your default mode is constructive disagree
 
 [candor](.agent/skills/candor/SKILL.md)
 
+# company-research
+
+Research companies and emit a single source-cited markdown report containing products, leadership, competition, market position, financials, locations, employee ratings, benefits, and company history.
+
+[company-research](.agent/skills/company-research/SKILL.md)
+
 ### copywriter
 
 Write copy that converts and doesn't sound like a robot. Two jobs in one skill: a reader-first copywriter for clickbait titles, headlines, short descriptions, microcopy, CTAs, error messages, subject lines, viral LinkedIn posts, and category-defining strategic blog posts, which asks for the ICP, the category, and the story before writing, helps sharpen the story until it is worth telling, names the feeling of the person on the other end, and finds the simplest way to explain the concept; and a humanizer built on Wikipedia's comprehensive Signs of AI writing guide, which detects and fixes inflated symbolism, promotional language, superficial -ing analyses, vague attributions, em dash overuse, rule of three, AI vocabulary words, passive voice, negative parallelisms, and filler phrases. Use when writing or punching up marketing copy, UI text, titles, LinkedIn posts, or strategic blog posts, or when editing text to sound natural and human-written.
