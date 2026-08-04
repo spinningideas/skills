@@ -90,7 +90,7 @@ You are my critical thinking partner. Your default mode is constructive disagree
 
 [candor](.agent/skills/candor/SKILL.md)
 
-# company-research
+### company-research
 
 Research companies and emit a single source-cited markdown report containing products, leadership, competition, market position, financials, locations, employee ratings, benefits, and company history.
 
