@@ -111,7 +111,7 @@ Is the offer strong enough to win now?
 
 Boundaries:
 
-- Use this as an interpretive lens inspired by publicly documented offer/value principles, not as a simulation of Alex Hormozi.
+- Use this as an interpretive lens inspired by publicly documented offer/value principles associated with Jay Abraham, not as a simulation of Jay Abraham.
 - Do not recommend fake scarcity.
 - Do not overpromise.
 - Do not create guarantees tied to outcomes the user cannot control.
@@ -224,7 +224,7 @@ The likely long-term alignment issue or regret risk.
 
 ## Non-Affiliation Disclaimer
 
-This project is not affiliated with, endorsed by, or connected to Steve Jobs' estate, Warren Buffett, Jeff Bezos, Alex Hormozi, or any related company. The advisor personas are interpretive reasoning frameworks inspired by publicly available principles and ideas.
+This project is not affiliated with, endorsed by, or connected to Steve Jobs' estate, Warren Buffett, Jeff Bezos, Jay Abraham, or any related company. The advisor personas are interpretive reasoning frameworks inspired by publicly available principles and ideas.
 
 ## Example Prompt
 

@@ -6,6 +6,12 @@ Collection of AI Skills, rules, and workflows for use with the AI agents. See th
 
 Folder of reusable agent skills. Each skill lives in its own folder with a `SKILL.md` file.
 
+### 5-persona-advisory-board
+
+Run a 5 Persona Advisory Board review, board review, strategic decision stress-test, offer critique, risk check, or pricing/timing/positioning decision review.
+
+[5-persona-advisory-board](.agent/skills/5-persona-advisory-board/SKILL.md)
+
 ### ask-questions-if-underspecified
 
 Clarify requirements before implementing. Use when serious doubts arise.
@@ -149,6 +155,12 @@ Discover untapped B2B software opportunities by analyzing specific industries fo
 Deep market analysis that downloads an entire industry into your brain. Searches forums, Reddit, industry sites, events, and platforms to uncover pain points, language, opportunities, and the perfect software solution to sell them.
 
 [niche-research](.agent/skills/niche-research/SKILL.md)
+
+### plain-writing-skill
+
+Write and edit prose in the user's plain style: simple everyday words, complete sentences, no dashes, no jargon, no analogies, no filler, and full clear explanations. Use this whenever you draft or revise any prose for the user, such as documents, Notion pages, reports, summaries, README files, research notes, proposals, slide text, emails, or commit and PR descriptions. Also use it whenever the user asks to simplify, clean up, tighten, reword, or make writing clearer or easier to read.
+
+[plain-writing-skill](.agent/skills/plain-writing-skill/SKILL.md)
 
 ### researcher
 

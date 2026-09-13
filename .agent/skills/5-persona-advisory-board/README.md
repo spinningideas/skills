@@ -1,10 +1,10 @@
 # 5 Persona Advisory Board
 
-Based on [github.com/harryvondiesel-web/5-persona-advisory-board](https://github.com/harryvondiesel-web/5-persona-advisory-board) but replaced Hormozi and refactored to allow user to select from a larger set of personas based on the scenario being stress tested.
+Based on [github.com/harryvondiesel-web/5-persona-advisory-board](https://github.com/harryvondiesel-web/5-persona-advisory-board) but refactored to allow user to select from a larger set of personas based on the scenario being stress tested.
 
 Use this skill to stress-test an important decision through five strategic lenses inspired by legendary business thinking, and leave with one clear next action.
 
-The method is inspired by public business principles associated with Jobs, Buffett, Bezos, Hormozi, and long-term future-self thinking. These are analytical lenses, not celebrity simulations, endorsements, or affiliated advisors.
+The method is inspired by public business principles associated with Jobs, Buffett, Bezos, Abraham, and long-term future-self thinking. These are analytical lenses, not celebrity simulations, endorsements, or affiliated advisors.
 
 Built for founders, consultants, operators, and AI power users making high-leverage decisions about launches, pricing, hiring, pivots, client risk, strategic focus, and stop/continue calls.
 
@@ -114,11 +114,37 @@ Do not use it for basic lookup, tiny admin choices, or decisions where no real a
 
 ## The Five Lenses
 
-- Product Clarity: vision, product design, focus, taste, storytelling, and memorability; inspired by public principles associated with Jobs
-- Risk and Capital: long-term planning, downside, incentives, durability, and margin of safety; inspired by public principles associated with Buffett
-- Scale and Systems: customer value, operational efficiency, mechanisms, repeatability, and operating leverage; inspired by public principles associated with Bezos
-- Offer Strength: demand, pricing, value, sales friction, and execution; inspired by public principles associated with Hormozi
-- Future Self: long-term regret, alignment, identity, freedom, and the person you want to become
+Each lens applies a distinct strategic perspective. The named individuals are well-documented public thinkers whose principles are used as interpretive frameworks, not as simulations or endorsements.
+
+### Product Clarity — Steve Jobs
+
+Co-founder of Apple. Known for obsessive product focus, simplicity, narrative clarity, and taste. His public principles center on cutting everything that does not serve the core idea and making the product tell a clear story.
+
+This lens asks: Is this clear, focused, and worth building?
+
+### Risk and Capital — Warren Buffett
+
+Chairman of Berkshire Hathaway. Known for long-term value investing, capital discipline, margin of safety, and identifying durable businesses. His public principles center on downside protection, rational incentives, and avoiding decisions where the economics are not yet clear.
+
+This lens asks: Is this durable, rational, and worth the risk?
+
+### Scale and Systems — Jeff Bezos
+
+Founder of Amazon. Known for customer obsession, scalable mechanisms, operational leverage, and long-term thinking. His public principles center on building repeatable systems, experimenting fast, and creating value that compounds over time.
+
+This lens asks: Does this create long-term customer value and scale?
+
+### Offer Strength — Jay Abraham
+
+Marketing strategist and author of *Getting Everything You Can Out of All You've Got*. Known for the Strategy of Preeminence, value creation, offer construction, pricing leverage, and removing sales friction. His public principles center on making your offer so clearly valuable that the buyer's decision becomes easy.
+
+This lens asks: Is the offer strong enough to win now?
+
+### Future Self
+
+This lens is not a named person. It represents the user's own future self — the person they are trying to become. It applies long-term thinking about regret, identity, freedom, and personal values to the decision at hand.
+
+This lens asks: Will I be proud I made this decision?
 
 The Future Self lens is your own future self, not any named person. The Product Clarity lens is not for general marriage, parenting, or personal leadership advice; it is focused on product, story, taste, and strategic clarity.
 
@@ -221,9 +247,9 @@ Those can be separate workflows. This repo stays focused on one job: helping use
 
 ## Non-Affiliation Disclaimer
 
-The 5 Persona Advisory Board is inspired by public business principles associated with Jobs, Buffett, Bezos, Hormozi, and long-term future-self thinking.
+The 5 Persona Advisory Board is inspired by public business principles associated with Jobs, Buffett, Bezos, Abraham, and long-term future-self thinking.
 
-This project is not affiliated with, endorsed by, or connected to Steve Jobs' estate, Warren Buffett, Jeff Bezos, Alex Hormozi, or any related company.
+This project is not affiliated with, endorsed by, or connected to Steve Jobs' estate, Warren Buffett, Jeff Bezos, Jay Abraham, or any related company.
 
 ## Feedback
 
