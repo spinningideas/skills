@@ -18,71 +18,17 @@ Clarify requirements before implementing. Use when serious doubts arise.
 
 [ask-questions-if-underspecified](.agent/skills/ask-questions-if-underspecified/SKILL.md)
 
-### brainstorming
-
-Use when a user presents a vague project or business idea and wants to research, challenge, refine, validate, or turn it into a documented handoff.
-
-[brainstorming](.agent/skills/brainstorming/SKILL.md)
-
 ### big-picture
 
 Use when a user wants to see the big picture and focus on high-level overview.
 
 [big-picture](.agent/skills/big-picture/SKILL.md)
 
-### code-steward
+### brainstorming
 
-Comprehensive codebase stewardship skill that combines import checking, typecheck fixing, and eslint fixing into a single unified workflow.
+Use when a user presents a vague project or business idea and wants to research, challenge, refine, validate, or turn it into a documented handoff.
 
-[code-steward](.agent/skills/code-steward/SKILL.md)
-
-### feature-developer
-
-Develops features systematically, ensuring they are implemented correctly and efficiently.
-
-[feature-developer](.agent/skills/feature-developer/SKILL.md)
-
-### feature-groom
-
-Groom features into detailed implementation plans with tasks, questions, and considerations for frontend/backend development.
-
-[feature-groom](.agent/skills/feature-groom/SKILL.md)
-
-### clear-writing-skill
-
-Write and edit prose in a "clear" style: simple everyday words, complete sentences, no dashes, no jargon, no analogies, no filler, and full clear explanations. Use this whenever you draft or revise any prose for the user, such as documents, summaries, README files, research notes, proposals, slide text, emails, or commit and PR descriptions. Also use it whenever the user asks to simplify, clean up, tighten, reword, or make writing clearer or easier to read. 
-
-[clear-writing-skill](.agent/skills/clear-writing-skill/SKILL.md)
-
-### senior-frontend-builder
-
-Build consistent, accessible UI components with Tailwind CSS, shadcn/ui, and custom design tokens. Apply when styling components, creating design systems, implementing responsive layouts, or optimizing CSS performance.
-
-[senior-frontend-builder](.agent/skills/senior-frontend-builder/SKILL.md)
-
-### tailwind-shadui
-
-Build consistent, accessible UI components with Tailwind CSS, shadcn/ui, and custom design tokens. Apply when styling components, creating design systems, implementing responsive layouts, or optimizing CSS performance.
-
-[tailwind-shadui](.agent/skills/tailwind-shadui/SKILL.md)
-
-### unused-code-cleanup
-
-Specialized agent for identifying and removing unused code, components, hooks, and styles in React applications using TypeScript. Use this when you need to reduce bundle size, clean up technical debt, or audit a codebase for dead code.
-
-[unused-code-cleanup](.agent/skills/unused-code-cleanup/SKILL.md)
-
-### deep-elicitation
-
-Question the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'elicitation' trigger phrases. This skill is inspired by the   [grill me](https://github.com/mattpocock/skills/blob/main/skills/productivity/grill-me/SKILL.md) skill from Matt Pocock's skills repository.
-
-[deep-elicitation](.agent/skills/deep-elicitation/SKILL.md)
-
-### teach
-
-Teach the user a new skill or concept.
-
-[teach](.agent/skills/teach/SKILL.md)
+[brainstorming](.agent/skills/brainstorming/SKILL.md)
 
 ### business-analyst
 
@@ -95,6 +41,18 @@ Use PROACTIVELY during requirements gathering and before technical implementatio
 You are my critical thinking partner. Your default mode is constructive disagreement.
 
 [candor](.agent/skills/candor/SKILL.md)
+
+### clear-writing-skill
+
+Write and edit prose in a "clear" style: simple everyday words, complete sentences, no dashes, no jargon, no analogies, no filler, and full clear explanations. Use this whenever you draft or revise any prose for the user, such as documents, summaries, README files, research notes, proposals, slide text, emails, or commit and PR descriptions. Also use it whenever the user asks to simplify, clean up, tighten, reword, or make writing clearer or easier to read. 
+
+[clear-writing-skill](.agent/skills/clear-writing-skill/SKILL.md)
+
+### code-steward
+
+Comprehensive codebase stewardship skill that combines import checking, typecheck fixing, and eslint fixing into a single unified workflow.
+
+[code-steward](.agent/skills/code-steward/SKILL.md)
 
 ### company-research
 
@@ -114,6 +72,12 @@ Elite data analyst persona (Gifted Data Analyst) with supernatural precision for
 
 [data-analyst-gifted](.agent/skills/data-analyst-gifted/SKILL.md)
 
+### deep-elicitation
+
+Question the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'elicitation' trigger phrases. This skill is inspired by the   [grill me](https://github.com/mattpocock/skills/blob/main/skills/productivity/grill-me/SKILL.md) skill from Matt Pocock's skills repository.
+
+[deep-elicitation](.agent/skills/deep-elicitation/SKILL.md)
+
 ### draw-io
 
 draw.io diagram creation, editing, and review. Use for .drawio XML editing, PNG conversion, layout adjustment, and AWS icon usage.
@@ -125,6 +89,18 @@ draw.io diagram creation, editing, and review. Use for .drawio XML editing, PNG 
 Use when working with *.excalidraw or *.excalidraw.json files, user mentions diagrams/flowcharts, or requests architecture visualization - delegates all Excalidraw operations to subagents to prevent context exhaustion from verbose JSON (single files: 4k-22k tokens, can exceed read limits)
 
 [excalidraw](.agent/skills/excalidraw/SKILL.md)
+
+### feature-developer
+
+Develops features systematically, ensuring they are implemented correctly and efficiently.
+
+[feature-developer](.agent/skills/feature-developer/SKILL.md)
+
+### feature-groom
+
+Groom features into detailed implementation plans with tasks, questions, and considerations for frontend/backend development.
+
+[feature-groom](.agent/skills/feature-groom/SKILL.md)
 
 ### format-as-markdown
 
@@ -168,17 +144,47 @@ Research and investigation specialist for both online sources and local codebase
 
 [researcher](.agent/skills/researcher/SKILL.md)
 
+### senior-frontend-builder
+
+Build consistent, accessible UI components with Tailwind CSS, shadcn/ui, and custom design tokens. Apply when styling components, creating design systems, implementing responsive layouts, or optimizing CSS performance.
+
+[senior-frontend-builder](.agent/skills/senior-frontend-builder/SKILL.md)
+
 ### skill-creator
 
 Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.
 
 [skill-creator](.agent/skills/skill-creator/SKILL.md)
 
+### tailwind-shadui
+
+Build consistent, accessible UI components with Tailwind CSS, shadcn/ui, and custom design tokens. Apply when styling components, creating design systems, implementing responsive layouts, or optimizing CSS performance.
+
+[tailwind-shadui](.agent/skills/tailwind-shadui/SKILL.md)
+
+### teach
+
+Teach the user a new skill or concept by building a persistent learning workspace on disk: self-contained HTML lessons, printable reference sheets, learning records, and a mission doc that carry progress across sessions. Use for structured, multi-session learning where materials and state should live as files. For conversational, in-chat Socratic quizzing, use `tutor` instead.
+
+[teach](.agent/skills/teach/SKILL.md)
+
+### tutor
+
+Structured Socratic tutoring when the user explicitly asks to be taught, quizzed, or drilled to mastery on a topic: diagnostic placement, a skill map with levels 0-5, spaced review, and a final assessment. Entirely conversational - runs in chat and produces no files. Trigger phrases: 'teach me', 'tutor me', 'quiz me', 'help me master'. Not for one-off 'explain X' or 'what is X' questions. For a persistent, file-based course with HTML lessons, use `teach` instead.
+
+[tutor](.agent/skills/tutor/SKILL.md)
+
 ### unpolished-truth
 
 Guide a user through a What / So What / Now What debrief to produce clear, actionable status updates.
 
 [unpolished-truth](.agent/skills/unpolished-truth/SKILL.md)
+
+### unused-code-cleanup
+
+Specialized agent for identifying and removing unused code, components, hooks, and styles in React applications using TypeScript. Use this when you need to reduce bundle size, clean up technical debt, or audit a codebase for dead code.
+
+[unused-code-cleanup](.agent/skills/unused-code-cleanup/SKILL.md)
 
 ### writing-clearly-and-concisely
 

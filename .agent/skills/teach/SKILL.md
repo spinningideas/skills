@@ -1,6 +1,6 @@
 ---
 name: teach
-description: Teach the user a new skill or concept, within this workspace.
+description: Teach the user a new skill or concept by building a persistent learning workspace on disk - HTML lessons, printable reference sheets, learning records, and a mission doc that carry progress across sessions. For conversational, in-chat Socratic quizzing with no files, use `tutor` instead.
 disable-model-invocation: true
 argument-hint: "What would you like to learn about?"
 source: "https://github.com/mattpocock/skills/tree/main/skills/productivity/teach"
